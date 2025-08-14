@@ -1,0 +1,46 @@
+.about {
+  padding: 5rem 0;
+  background-color: rgba(139, 69, 19, 0.05);
+}
+
+.aboutContent {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 3rem;
+  align-items: center;
+}
+
+.aboutText h2 {
+  font-size: 2.5rem;
+  margin-bottom: 2rem;
+  color: var(--color-secondary);
+}
+
+.aboutText p {
+  margin-bottom: 1.5rem;
+  color: var(--color-light);
+  line-height: 1.8;
+}
+
+.aboutImage {
+  text-align: center;
+}
+
+.aboutImage img {
+  width: 100%;
+  height: 400px;
+  object-fit: cover;
+  border-radius: 8px;
+  border: 2px solid var(--color-primary);
+}
+
+@media (max-width: 768px) {
+  .aboutContent {
+    grid-template-columns: 1fr;
+    gap: 2rem;
+  }
+
+  .aboutText h2 {
+    font-size: 2rem;
+  }
+}
