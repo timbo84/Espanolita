@@ -15,7 +15,7 @@ const playfair = Playfair_Display({
 })
 
 export const metadata = {
-  title: "Usalá Paella - Authentic Spanish Cuisine",
+  title: "Munoz Espanolita",
   description: "Experience the finest Spanish paella and cuisine in an elegant atmosphere",
     
 }
