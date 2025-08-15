@@ -71,3 +71,28 @@
     display: flex;
   }
 }
+
+.hero {
+  position: relative;
+  display: flex;
+  justify-content: center;  /* centers horizontally */
+  align-items: center;      /* centers vertically */
+  text-align: center;
+  height: 100vh;            /* full viewport height, or set to image height */
+  background: url('/path-to-your-image.jpg') center/cover no-repeat;
+}
+
+.heroContent {
+  color: white;
+  max-width: 800px;
+  padding: 2rem;
+  background: rgba(0, 0, 0, 0.5); /* optional for readability */
+  border-radius: 10px;           /* optional styling */
+}
+
+.heroButtons {
+  display: flex;
+  gap: 1rem;
+  justify-content: center;
+  margin-top: 1rem;
+}
