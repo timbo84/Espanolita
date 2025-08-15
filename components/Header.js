@@ -15,7 +15,7 @@ export default function Header() {
         <nav className={styles.nav}>
           <Link href="/" className={styles.logo}>
             Munoz espanolita
-            {/* <img src="/logo.png" alt="Logo" /> */}
+            {/* <img src="/logo.jpg" alt="Logo" /> */}
           </Link>
           <ul className={styles.navLinks}>
             <li>

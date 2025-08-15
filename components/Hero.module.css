@@ -1,7 +1,7 @@
 .hero {
   height: 100vh;
   background: 
-    linear-gradient(rgba(47, 27, 20, 0.7), rgba(47, 27, 20, 0.7)),
+    linear-gradient(rgba(122, 71, 52, 0.2), rgba(47, 27, 20, 0.2)),
     url("/heroDish.jpg") center / cover no-repeat;
   display: flex;
   align-items: center;
@@ -14,7 +14,7 @@
   text-align: center;
   font-size: 4rem;
   margin-bottom: 1rem;
-  color: var(--color-secondary);
+  color: #d2691e;
   text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
 }
 

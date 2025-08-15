@@ -17,22 +17,30 @@
 
 .logo {
   font-family: var(--font-heading);
-  font-size: 2rem;
+  font-size: 3rem;
   font-weight: 700;
-  color: var(--color-secondary);
+  color: #d2691e;
   text-decoration: none;
 }
+
+/* .logo img {
+  height: 4rem; 
+  width: 5rem; 
+  vertical-align: middle;
+} */
+
 
 .navLinks {
   display: flex;
   list-style: none;
-  gap: 2rem;
+  gap: 1.5rem;
+  font-size: 1.5rem;
 }
 
 .navLinks a {
-  color: var(--color-light);
+  color: #f5f5dc;
   text-decoration: none;
-  font-weight: 500;
+  font-weight: 300;
   transition: color 0.3s ease;
 }
 
@@ -49,7 +57,7 @@
 .mobileMenu span {
   width: 25px;
   height: 3px;
-  background-color: var(--color-light);
+  background-color: #f5f5dc;
   margin: 3px 0;
   transition: 0.3s;
 }

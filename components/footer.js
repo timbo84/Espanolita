@@ -42,13 +42,25 @@ export default function Footer() {
           </div>
 
           <div className={styles.footerSection}>
+            <h3>Hours of Operation</h3>
+            <ul>
+              <li> Monday: </li>
+              <li> Tuesday: </li>
+              <li> Wednesday: </li>
+              <li> Thursday: </li>
+              <li> Friday: </li>
+              <li> Saturday: </li>
+              <li> Sunday: </li>
+            </ul>
+          </div>
+
+          <div className={styles.footerSection}>
             <h3>Contact</h3>
             <ul>
               <li> Email: </li>
               <li> Phone Number: </li>
               <li> Address: </li>
-              </ul>
-            
+            </ul>
           </div>
         </div>
 

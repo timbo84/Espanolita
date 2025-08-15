@@ -36,6 +36,20 @@
   line-height: 1.6;
 }
 
+.menuImage {
+  width: 100%;
+  height: auto;
+  border-radius: 8px;
+  margin-bottom: 1rem;
+}
+
+.menuItem img {
+  width: 100%;
+  height: auto;
+  border-radius: 8px;
+  margin-bottom: 1rem;
+}
+
 .price {
   font-weight: bold;
   color: var(--color-accent);
