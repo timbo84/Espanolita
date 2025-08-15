@@ -2,6 +2,7 @@ import Header from "../components/Header"
 import Hero from "../components/Hero"
 import Menu from "../components/Menu"
 import About from "../components/About"
+import Footer from "@/components/footer"
 
 export default function HomePage() {
   return (
@@ -11,6 +12,7 @@ export default function HomePage() {
         <Hero />
         <Menu />
         <About />
+        {/* <Footer /> */}
       </main>
     </>
   )
